@@ -1,0 +1,32 @@
+timestamp,message
+1660656332990,"START RequestId: fb556f60-da3c-411f-bcee-40716fe373f1 Version: $LATEST
+"
+1660656332992,"2022-08-16T13:25:32.992Z	fb556f60-da3c-411f-bcee-40716fe373f1	INFO	Started...
+"
+1660656333012,"2022-08-16T13:25:32.994Z	fb556f60-da3c-411f-bcee-40716fe373f1	INFO	{
+  version: '1',
+  region: 'us-east-2',
+  userPoolId: 'us-east-2_32QZBjg1x',
+  userName: 'scott',
+  callerContext: {
+    awsSdkVersion: 'aws-sdk-unknown-unknown',
+    clientId: '59oafp8kdjpi2nd28ephe18puv'
+  },
+  triggerSource: 'VerifyAuthChallengeResponse_Authentication',
+  request: {
+    userAttributes: {
+      sub: '8d4cf188-7863-465f-9844-e6315b2bd80f',
+      'cognito:user_status': 'CONFIRMED'
+    },
+    privateChallengeParameters: { password: 'testing' },
+    challengeAnswer: 'testing'
+  },
+  response: { answerCorrect: null }
+}
+"
+1660656333012,"2022-08-16T13:25:33.012Z	fb556f60-da3c-411f-bcee-40716fe373f1	INFO	Step 1
+"
+1660656333033,"END RequestId: fb556f60-da3c-411f-bcee-40716fe373f1
+"
+1660656333033,"REPORT RequestId: fb556f60-da3c-411f-bcee-40716fe373f1	Duration: 42.08 ms	Billed Duration: 43 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 136.77 ms	
+"

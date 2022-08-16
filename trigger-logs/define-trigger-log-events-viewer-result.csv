@@ -1,0 +1,71 @@
+timestamp,message
+1660656326036,"START RequestId: 69695f81-1cbf-4839-936d-04220628a44f Version: $LATEST
+"
+1660656326050,"2022-08-16T13:25:26.050Z	69695f81-1cbf-4839-936d-04220628a44f	INFO	Started...
+"
+1660656326052,"2022-08-16T13:25:26.052Z	69695f81-1cbf-4839-936d-04220628a44f	INFO	{
+  version: '1',
+  region: 'us-east-2',
+  userPoolId: 'us-east-2_32QZBjg1x',
+  userName: 'scott',
+  callerContext: {
+    awsSdkVersion: 'aws-sdk-unknown-unknown',
+    clientId: '59oafp8kdjpi2nd28ephe18puv'
+  },
+  triggerSource: 'DefineAuthChallenge_Authentication',
+  request: {
+    userAttributes: {
+      sub: '8d4cf188-7863-465f-9844-e6315b2bd80f',
+      'cognito:user_status': 'CONFIRMED'
+    },
+    session: []
+  },
+  response: { challengeName: null, issueTokens: null, failAuthentication: null }
+}
+"
+1660656326052,"2022-08-16T13:25:26.052Z	69695f81-1cbf-4839-936d-04220628a44f	INFO	[]
+"
+1660656326052,"2022-08-16T13:25:26.052Z	69695f81-1cbf-4839-936d-04220628a44f	INFO	Step 1
+"
+1660656326090,"END RequestId: 69695f81-1cbf-4839-936d-04220628a44f
+"
+1660656326090,"REPORT RequestId: 69695f81-1cbf-4839-936d-04220628a44f	Duration: 53.88 ms	Billed Duration: 54 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 164.70 ms	
+"
+1660656333026,"START RequestId: 31fa15bb-d54d-4263-b58b-1f225f673aa0 Version: $LATEST
+"
+1660656333049,"2022-08-16T13:25:33.028Z	31fa15bb-d54d-4263-b58b-1f225f673aa0	INFO	Started...
+"
+1660656333049,"2022-08-16T13:25:33.029Z	31fa15bb-d54d-4263-b58b-1f225f673aa0	INFO	{
+  version: '1',
+  region: 'us-east-2',
+  userPoolId: 'us-east-2_32QZBjg1x',
+  userName: 'scott',
+  callerContext: {
+    awsSdkVersion: 'aws-sdk-unknown-unknown',
+    clientId: '59oafp8kdjpi2nd28ephe18puv'
+  },
+  triggerSource: 'DefineAuthChallenge_Authentication',
+  request: {
+    userAttributes: {
+      sub: '8d4cf188-7863-465f-9844-e6315b2bd80f',
+      'cognito:user_status': 'CONFIRMED'
+    },
+    session: [ [Object] ]
+  },
+  response: { challengeName: null, issueTokens: null, failAuthentication: null }
+}
+"
+1660656333049,"2022-08-16T13:25:33.029Z	31fa15bb-d54d-4263-b58b-1f225f673aa0	INFO	[
+  {
+    challengeName: 'CUSTOM_CHALLENGE',
+    challengeResult: true,
+    challengeMetadata: 'PASSWORD-testing'
+  }
+]
+"
+1660656333049,"2022-08-16T13:25:33.029Z	31fa15bb-d54d-4263-b58b-1f225f673aa0	INFO	Step 2
+"
+1660656333050,"END RequestId: 31fa15bb-d54d-4263-b58b-1f225f673aa0
+"
+1660656333050,"REPORT RequestId: 31fa15bb-d54d-4263-b58b-1f225f673aa0	Duration: 22.80 ms	Billed Duration: 23 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	
+"
